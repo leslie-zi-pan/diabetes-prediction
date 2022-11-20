@@ -1,4 +1,4 @@
-dm-predictor
+DM Predictor Project
 ==============================
 
 Project to predict DM from patient biomarkers
