@@ -8,7 +8,7 @@ PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 BUCKET = [OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')
 PROFILE = default
 PROJECT_NAME = dm-predictor
-PYTHON_INTERPRETER = python3
+PYTHON_INTERPRETER = python
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False
@@ -24,6 +24,11 @@ endif
 requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
+
+## Extract DM Raw Dataset
+raw_data: requirements
+	kaggle datasets download -d akshaydattatraykhare/diabetes-dataset -p data/raw
+	$(PYTHON_INTERPRETER) makefile_scripts/unzip.py data/raw/diabetes-dataset.zip data/raw
 
 ## Make Dataset
 data: requirements
