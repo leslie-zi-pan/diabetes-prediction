@@ -28,7 +28,7 @@ requirements: test_environment
 ## Extract DM Raw Dataset
 raw_data: requirements
 	kaggle datasets download -d akshaydattatraykhare/diabetes-dataset -p data/raw
-	unzip data/raw/diabetes-dataset.zip -d data/raw
+	$(PYTHON_INTERPRETER) makefile_scripts/unzip.py data/raw/diabetes-dataset.zip data/raw
 
 ## Make Dataset
 data: requirements
