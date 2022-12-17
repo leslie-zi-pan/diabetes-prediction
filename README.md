@@ -1,6 +1,8 @@
 dm-predictor
 ==============================
 
+![GitHub CI](https://github.com/leslie-zi-pan/diabetes-prediction/actions/workflows/pytest.yml/badge.svg)
+
 Project to predict DM from patient biomarkers
 
 Project Organization
