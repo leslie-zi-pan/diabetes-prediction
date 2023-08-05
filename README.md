@@ -54,4 +54,10 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+## EDA Results
+
+Raw Pairplots
+![Processed Pairplot](reports/figures/eda-raw-pairplots.png)
+
+Outlier Procssed Pairplots
+![Processed Pairplot](reports/figures/eda-pairplots.png)
