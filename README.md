@@ -57,7 +57,7 @@ Project Organization
 ## EDA Results
 
 Raw Pairplots
-![Processed Pairplot](reports\figures\eda-raw-pairplots.png)
+![Processed Pairplot](reports/figures/eda-raw-pairplots.png)
 
 Outlier Procssed Pairplots
-![Processed Pairplot](reports\figures\eda-pairplots.png)
+![Processed Pairplot](reports/figures/eda-pairplots.png)
