@@ -1,4 +1,4 @@
-# T2 Diabetes Prediction
+# Diabetes Prediction
 
 ## Frame The Problem
 
