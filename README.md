@@ -38,6 +38,8 @@ UK Population in 2016 as outlines by [Office of National Statistics](<https://ww
 | Provenance Collection Methodology | The collection methodology for the diabetes prediction dataset involves gathering medical and demographic data from patients who have been diagnosed with or are at risk of developing diabetes. The data is typically collected through surveys, medical records, and laboratory tests. The data includes features such as age, gender, body mass index (BMI), hypertension, heart disease, smoking history, HbA1c level, and blood glucose level. The data is then processed and cleaned to remove any errors or inconsistencies. The dataset can also be used for research purposes to identify potential risk factors for diabetes and to develop effective prevention and treatment strategies. |
 
 
+## Exploratory Data Analysis
+
 | EDA Investigations | Information | 
 |---|---|
 | Data Shape | `(80000, 9)` |
