@@ -40,7 +40,8 @@ UK Population in 2016 as outlines by [Office of National Statistics](<https://ww
 
 | EDA Investigations | Information | 
 |---|---|
-| Data Shape | `(100000, 9)` |
+| Data Shape | `(80000, 9)` |
 | Data Columns | ```['gender', 'age', 'hypertension', 'heart_disease', 'smoking_history', 'bmi', 'HbA1c_level', 'blood_glucose_level', 'diabetes']``` |
+| Unique Count |  |
 | Train Test Split Distribution Stratified By Label - Diabetes | ![strat_diab](reports/train_test_split/split_strat_by_diabetes.png) |
 | Train Test Split Distribution Stratified By Gender | ![strat_gender](reports/train_test_split/split_strat_by_gender.png) |
